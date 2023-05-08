@@ -9,6 +9,17 @@
 </head>
 <body>
 
+<div class="container">
+    <div class="row">
+        <h1>Todo List</h1>
+    </div>
+    <div class="row">
+        <ul class="list-group">
+            <li class="list-group-item">An item</li>
+
+        </ul>
+    </div>
+</div>
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src='./app.js'></script>
