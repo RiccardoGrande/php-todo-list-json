@@ -15,7 +15,7 @@
     </div>
     <div class="row">
         <ul class="list-group">
-            <li class="list-group-item">An item</li>
+            <li class="list-group-item" v-for="task in tasks">{{task}}</li>
 
         </ul>
 
@@ -24,7 +24,7 @@
         </div>
     </div>
 </div>
-
+<script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src='./app.js'></script>
 </body>
