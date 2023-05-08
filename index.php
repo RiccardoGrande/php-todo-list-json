@@ -9,21 +9,26 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
-        <h1>Todo List</h1>
-    </div>
-    <div class="row">
-        <ul class="list-group">
-            <li class="list-group-item" v-for="task in tasks">{{task}}</li>
+<section id="app">
 
-        </ul>
+    <div class="container">
+        <div class="row">
+            <h1>Todo List</h1>
+        </div>
+        <div class="row">
+            <ul class="list-group">
+                <li class="list-group-item" v-for="task in tasks">{{task}}</li>
 
-        <div class="add_task">
-            <input type="text" v-model="new_task" @keyup.enter="add_task" placeholder="Type a task here">
+            </ul>
+
+            <div class="add_task">
+                <input type="text" v-model="new_task" @keyup.enter="add_task" placeholder="Type a task here">
+            </div>
         </div>
     </div>
-</div>
+
+</section>
+
 <script src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js'></script>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src='./app.js'></script>
