@@ -26,7 +26,7 @@
 
                 </ul>
 
-                <div class="add_task">
+                <div class="add_task p-3">
                     <input type="text" v-model="new_task" @keyup.enter="add_task" placeholder="Inserisci l'lemento...se hai il coraggio">
                     <button type="submit" onclick="add_task">Inserisci</button>
                 </div>
