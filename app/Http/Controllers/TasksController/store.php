@@ -1,5 +1,5 @@
 <?php
-$file_path = '../../../../tasks.json';
+$file_path = '././././tasks.json';
 
 if (isset($_POST['new_task'])) {
     $task = $_POST['new_task'];
@@ -18,7 +18,7 @@ if (isset($_POST['new_task'])) {
     // add header application/json
     header('Content-Type: application/json');
 
-    header("Access-Control-Allow-Origin: http://localhost:5173");
+    header("Access-Control-Allow-Origin: http://PHP/php-todo-list-json/");
     header("Access-Control-Allow-Headers: X-Requested-With");
     // echo json
     echo $new_tasks_json_string;
