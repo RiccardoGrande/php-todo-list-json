@@ -17,7 +17,7 @@ createApp({
             }
 
             axios.post(
-                'app/Http/Controllers/TasksController/storeTasks.php',
+                './storeTasks.php',
                 data,
                 {
                     headers: { 'Content-Type': 'multipart/form-data' }

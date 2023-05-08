@@ -18,7 +18,7 @@ if (isset($_POST['new_task'])) {
     // add header application/json
     header('Content-Type: application/json');
 
-    header("Access-Control-Allow-Origin: http://localhost:8888/PHP/php-todo-list-json/");
+    header("Access-Control-Allow-Origin: http://localhost:8088/PHP/php-todo-list-json/");
     header("Access-Control-Allow-Headers: X-Requested-With");
     // echo json
     echo $new_tasks_json_string;
